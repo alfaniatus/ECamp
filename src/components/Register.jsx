@@ -24,10 +24,10 @@ const Register= () => {
                 <input type='confirm' placeholder='Enter Password' className='form-control'/>
             </div>
             <div className='d-grid'>
-                <button className='btn btn-primary'>Sign In</button>
+                <button className='btn btn-primary'>Sign Up</button>
             </div>
             <p className='text-end mt-2'>
-                <Link to='/signup' className='ms-2'>Sign Up</Link>
+                Already Registered<Link to='/' className='ms-2'>Sign In</Link>
             </p>
         </form>
         </div>

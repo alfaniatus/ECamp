@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
-import style from "../dist/css/main.css";
 
 const Login = () => {
   return (
@@ -20,7 +19,7 @@ const Login = () => {
                 <button className='btn btn-primary'>Sign In</button>
             </div>
             <p className='text-end mt-2'>
-                <Link to='/signup' className='ms-2'>Sign In</Link>
+                Forgot <a href="">Password?</a><Link to='/signup' className='ms-2'>Sign Up</Link>
             </p>
         </form>
         </div>

@@ -3,7 +3,9 @@ import FooterComponent from "./components/FooterComponent";
 import NavbarComponent from "./components/NavbarComponent";
 import HomePage from "./pages/HomePage";
 import EventPage from "./pages/EventPage";
-import LoginPage from "./pages/LoginPage";
+import ContactPage from "./pages/ContactPage";
+import RegisterPage from "./pages/RegisterPage";
+import LoginPage from "./pages/RegisterPage";
 
 function App() {
   return (
@@ -11,8 +13,10 @@ function App() {
       <NavbarComponent/>
       <Routes>
         <Route path="/" Component={HomePage}/>
-        <Route path="/" Component={EventPage}/>
-        <Route path="/login" Component={LoginPage}/>
+        <Route path="/event" Component={EventPage}/>
+        <Route path="/" Component={ContactPage}/>
+        <Route path="/" Component={RegisterPage}/>
+        <Route path="/" Component={LoginPage}/>
       </Routes>
       <FooterComponent/>
     </>
